@@ -1,0 +1,67 @@
+1 films
+    id
+    title
+    tagline
+    description
+    poster
+    year
+    country
+    director
+    actors
+    genre
+    premier
+    budget
+    fees_in_usa
+    fees_in_world
+    category
+    url
+    draft
+
+2. movie_shots
+    id
+    title
+    description
+    image
+    movie
+
+3. director
+    name
+    description
+    image
+
+4. actor
+    id
+    name
+    age
+    description
+    image
+
+5. rating
+    id
+    ip
+    star
+    movie
+
+6. rating_star
+    id
+    value
+
+7. genre
+    id
+    name
+    description
+    url
+
+8. movie_shots
+    id
+    title
+    description
+    image
+    movie
+
+9. category
+    id
+    name - Char
+    description
+    url
+
