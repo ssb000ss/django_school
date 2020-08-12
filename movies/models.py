@@ -101,7 +101,7 @@ class RatingStar(models.Model):
 
     class Meta:
         verbose_name = "Звезда рейтинга"
-        verbose_name_plural = "ЗвездЫ рейтинга"
+        verbose_name_plural = "Звезды рейтинга"
 
 
 class Rating(models.Model):
