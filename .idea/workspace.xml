@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4bb1c9-b9ca-4955-ad95-36b6a3c5d66b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hpoiy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/migrations/0002_auto_20200812_1141.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/django_movie_template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_school/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_school/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597211511989</updated>
-      <workItem from="1597211514296" duration="4617000" />
+      <workItem from="1597211514296" duration="7060000" />
     </task>
     <servers />
   </component>
@@ -86,10 +89,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1597212698470">
+    <state x="-1559" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597221483589">
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1597212698470" />
+    <state x="-1559" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1597221483589" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1597221549296">
+      <screen x="-1920" y="0" width="1536" height="832" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1597221549296" />
     <state x="-1643" y="57" key="SettingsEditor" timestamp="1597213109275">
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
