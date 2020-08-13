@@ -47,7 +47,7 @@ class Genre(models.Model):
 class Movie(models.Model):
     """Жанры"""
     title = models.CharField("Заголовок", max_length=160)
-    tagline = models.CharField("Слогвн", max_length=100, default="")
+    tagline = models.CharField("Слоган", max_length=100, default="")
     description = models.TextField("Описание")
     poster = models.ImageField("Постер", upload_to="movie/")
     year = models.PositiveSmallIntegerField("Дата выхода", default=1900)
@@ -70,7 +70,7 @@ class Movie(models.Model):
     draft = models.BooleanField("Черновик", default=False)
 
     def __str__(self):
-        return self.name
+        return self.title
 
     class Meta:
         verbose_name = "Фильм"
@@ -82,7 +82,7 @@ class MovieShots(models.Model):
     title = models.CharField("Заголовок", max_length=100)
     description = models.TextField("Описание")
     image = models.ImageField("Изображение", upload_to="movie_shots")
-    movie = models.ForeignKey(Movie,verbose_name="Фильм", on_delete=models.CASCADE)
+    movie = models.ForeignKey(Movie, verbose_name="Фильм", on_delete=models.CASCADE)
 
     def __str__(self):
         return self.title
@@ -111,7 +111,7 @@ class Rating(models.Model):
     movie = models.ForeignKey(Movie, verbose_name="Фильм", on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.value
+        return self.ip
 
     class Meta:
         verbose_name = "Рейтинг"
@@ -129,7 +129,7 @@ class Reviews(models.Model):
     movie = models.ForeignKey(Movie, verbose_name="Фильм", on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.name}" - {self.movie}
+        return f"{self.name} - {self.movie}"
 
     class Meta:
         verbose_name = "Отзывы"
