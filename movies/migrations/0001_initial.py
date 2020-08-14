@@ -72,8 +72,8 @@ class Migration(migrations.Migration):
                 ('draft', models.BooleanField(default=False, verbose_name='Черновик')),
                 ('actors', models.ManyToManyField(related_name='film_actor', to='movies.Actor', verbose_name='Актер')),
                 ('category', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, to='movies.category', verbose_name='Категории')),
-                ('director', models.ManyToManyField(related_name='film_director', to='movies.Actor', verbose_name='Режиссер')),
-                ('genre', models.ManyToManyField(to='movies.Genre', verbose_name='Жанр')),
+                ('directors', models.ManyToManyField(related_name='film_director', to='movies.Actor', verbose_name='Режиссер')),
+                ('genres', models.ManyToManyField(to='movies.Genre', verbose_name='Жанр')),
             ],
             options={
                 'verbose_name': 'Фильм',
